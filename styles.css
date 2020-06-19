@@ -1,6 +1,6 @@
 *, *::before, *::after {
   box-sizing: border-box;
-  font-family: Gotham Rounded;
+  font-family: sans-serif;
   font-size: large;
 }
 
@@ -16,12 +16,6 @@ body {
   background-image: url(./img/fundo.png);
   background-repeat: no-repeat;
   background-repeat: round;  
-}
-
-.logo {
-  clear: both;
-  display: flex;
-  align-content: center;
 }
 
 .container {
@@ -41,11 +35,11 @@ body {
 }
 
 .btn {
-  background-color: hsla(0, 83%, 60%, 0.986);
+  background-color: hsla(167, 95%, 45%, 0.986);
   border: 2px solid hsl(200, 100%, 30%);
   border-radius: 15px;
   padding: 1px 15px;
-  color: white;
+  color: rgb(0, 0, 0);
   outline: none;
 }
 
