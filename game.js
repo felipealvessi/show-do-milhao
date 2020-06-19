@@ -254,7 +254,7 @@ const textNodes = [
   },
   {
     id: 16,
-    text: 'vicent Van Gogh era um?',
+    text: 'Vicent Van Gogh era um?',
     options: [
       {
         text: 'Bispo',
