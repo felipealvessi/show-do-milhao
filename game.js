@@ -50,8 +50,8 @@ const textNodes = [
         nextText: 2
       },
       {
-        text: 'AINDA NÃO (Resposta)',
-        nextText: 2
+        text: 'AINDA NÃO',
+        nextText: -1
       }
     ]
   },
@@ -63,16 +63,16 @@ const textNodes = [
         text: '20 LETRAS',
         requiredState: (currentState) => currentState.blueGoo,
         setState: { blueGoo: false, sword: true },
-        nextText: 3
+        nextText: 4
       },
       {
         text: '21 LETRAS',
         requiredState: (currentState) => currentState.blueGoo,
         setState: { blueGoo: false, shield: true },
-        nextText: 3
+        nextText: 4
       },
       {
-        text: '23 LETRAS',
+        text: '26 LETRAS',
         nextText: 3
       }
     ]
@@ -97,20 +97,20 @@ const textNodes = [
   },
   {
     id: 4,
-    text: 'Você perdeu. | Jogar novamente?',
+    text: 'Você errou, tente novamente!',
     options: [
       {
-        text: 'Sim',
-        nextText: -1
+        text: 'Jogar novamente',
+        nextText: - 1
       }
     ]
   },
   {
     id: 5,
-    text: - '',
+    text: 'Você errou, tente novamente!',
     options: [
       {
-        text: 'Reiniciar',
+        text: 'Jogar novamente',
         nextText: -1
       }
     ]
@@ -127,55 +127,25 @@ const textNodes = [
   },
   {
     id: 7,
-    text: 'A cor Vermelha na lingua inglesa, se escreve de qual forma:.',
+    text: 'A cor Vermelha na lingua inglesa, se escreve de qual forma?',
     options: [
       {
         text: 'READ',
         nextText: 8
       },
       {
-        text: 'Ataque com sua espada',
-        requiredState: (currentState) => currentState.sword,
-        nextText: 9
-      },
-      {
-        text: 'Esconda-se atrás do seu escudo',
-        requiredState: (currentState) => currentState.shield,
-        nextText: 10
-      },
-      {
         text: 'RED',
-        requiredState: (currentState) => currentState.blueGoo,
-        nextText: 11
+        // requiredState: (currentState) => currentState.blueGoo,
+        nextText: 12
       }
     ]
   },
   {
     id: 8,
-    text: "Você errou!",
+    text: 'Você errou, tente novamente!',
     options: [
       {
         text: 'Jogar novamente',
-        nextText: -1
-      }
-    ]
-  },
-  {
-    id: 9,
-    text: '',
-    options: [
-      {
-        text: 'Jogar Novamente!',
-        nextText: -1
-      }
-    ]
-  },
-  {
-    id: 10,
-    text: '.',
-    options: [
-      {
-        text: 'Jogar Novamente!',
         nextText: -1
       }
     ]
@@ -185,8 +155,84 @@ const textNodes = [
     text: 'Você chegou ao final do jogo. Parabéns pela conquista!',
     options: [
       {
-        text: 'Obrigado. Jogar Novamente!',
+        text: 'Jogar Novamente!',
         nextText: -1
+      }
+    ]
+  },
+  {
+    id: 12,
+    text: 'Qual a capital mais populosa do Brasil?',
+    options: [
+      {
+        text: 'São Paulo',
+        nextText: 15
+      },
+      {
+        text: 'Rio de Janeiro',
+        nextText: 4
+      },
+      {
+        text: 'Brasília',
+        nextText: 4
+      },
+      {
+        text: 'Minas Gerais',
+        nextText: 4
+      },
+    ]
+  },
+  {
+    id: 13,
+    text: 'Qual desses é um ser herbívoro?',
+    options: [
+      {
+        text: 'Zebra',
+        nextText: 14
+      },
+      {
+        text: 'Cachorro',
+        nextText: 4
+      },
+      {
+        text: 'Gato',
+        nextText: 4
+      },
+      {
+        text: 'Rato',
+        nextText: 4
+      },
+    ]
+  },
+  {
+    id: 14,
+    text: 'Qual o país mais populoso do mundo?',
+    options: [
+      {
+        text: 'Ásia',
+        nextText: 4
+      },
+      {
+        text: 'China',
+        nextText: 11
+      },
+      {
+        text: 'Europa',
+        nextText: 4
+      },
+      {
+        text: 'Canadá',
+        nextText: 4
+      },
+    ]
+  },
+  {
+    id: 15,
+    text: 'Parabéns você acertou!',
+    options: [
+      {
+        text: 'Continuar',
+        nextText: 13
       }
     ]
   }
