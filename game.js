@@ -73,7 +73,7 @@ const textNodes = [
       },
       {
         text: '26 LETRAS',
-        nextText: 3
+        nextText: 5
       },
       {
         text: '19 LETRAS',
@@ -115,10 +115,10 @@ const textNodes = [
   },
   {
     id: 5,
-    text: 'Você errou, tente novamente!',
+    text: 'Parabéns você acertou e ganhou 10 pontos',
     options: [
       {
-        text: 'Jogar novamente',
+        text: 'Continuar',
         nextText: -1
       }
     ]
