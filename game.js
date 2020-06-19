@@ -57,7 +57,7 @@ const textNodes = [
   },
   {
     id: 2,
-    text: 'Quantas letras tem no alfabeto brasileiro?',
+    text: '1) Quantas letras tem no alfabeto brasileiro? (10 pontos)',
     options: [
       {
         text: '20 LETRAS',
@@ -83,7 +83,7 @@ const textNodes = [
   },
   {
     id: 3,
-    text: 'Quem nasceu no Brasil é?',
+    text: '2) Quem nasceu no Brasil é? (10 pontos)',
     options: [
       {
         text: 'Amerciano',
@@ -125,7 +125,7 @@ const textNodes = [
   },
   {
     id: 6,
-    text: 'Parabéns você acertou!',
+    text: 'Parabéns você acertou as Duas - Total de Pontos = 20',
     options: [
       {
         text: 'Continuar',
@@ -135,7 +135,7 @@ const textNodes = [
   },
   {
     id: 7,
-    text: 'A cor Vermelha na lingua inglesa, se escreve de qual forma?',
+    text: '3) A cor Vermelha na lingua inglesa, se escreve de qual forma? (10 pontos)',
     options: [
       {
         text: 'Read',
@@ -168,7 +168,7 @@ const textNodes = [
   },
   {
     id: 11,
-    text: 'Você chegou ao final do jogo. Parabéns pela conquista!',
+    text: 'Você chegou ao final do jogo. Parabéns pela conquista! Você somou 80 pontos',
     options: [
       {
         text: 'Jogar Novamente!',
@@ -178,11 +178,11 @@ const textNodes = [
   },
   {
     id: 12,
-    text: 'Qual a capital mais populosa do Brasil?',
+    text: '4) Qual a capital mais populosa do Brasil? (10 pontos)',
     options: [
       {
         text: 'São Paulo',
-        nextText: 15
+        nextText: 18
       },
       {
         text: 'Rio de Janeiro',
@@ -200,7 +200,7 @@ const textNodes = [
   },
   {
     id: 13,
-    text: 'Qual desses é um ser herbívoro?',
+    text: '5) Qual desses é um ser herbívoro? (10 pontos)',
     options: [
       {
         text: 'Zebra',
@@ -222,7 +222,7 @@ const textNodes = [
   },
   {
     id: 14,
-    text: 'Qual o país mais populoso do mundo?',
+    text: '6) Qual o país mais populoso do mundo? (10 pontos)',
     options: [
       {
         text: 'Ásia',
@@ -244,7 +244,7 @@ const textNodes = [
   },
   {
     id: 15,
-    text: 'Parabéns você acertou!',
+    text: 'Parabéns você acertou as Duas - Total de Pontos = 60',
     options: [
       {
         text: 'Continuar',
@@ -254,7 +254,7 @@ const textNodes = [
   },
   {
     id: 16,
-    text: 'Vicent Van Gogh era um?',
+    text: '7) Vicent Van Gogh era um? (10 pontos)',
     options: [
       {
         text: 'Bispo',
@@ -276,7 +276,7 @@ const textNodes = [
   },
   {
     id: 17,
-    text: 'Em que código as pessoas cegas leem?',
+    text: '8) Em que código as pessoas cegas leem? (10 pontos)',
     options: [
       {
         text: 'Morse',
@@ -299,11 +299,11 @@ const textNodes = [
   ,
   {
     id: 18,
-    text: 'Parabéns você acertou!',
+    text: 'Parabéns você acertou as Duas - Total de Pontos = 40',
     options: [
       {
         text: 'Continuar',
-        nextText: 17
+        nextText: 13
       }
     ]
   }
