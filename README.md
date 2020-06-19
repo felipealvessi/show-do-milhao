@@ -1,5 +1,5 @@
 <h2 align="center">
- Show do Milhao - Genérico
+ Show do Milhão - Genérico
 </h2>
 <hr>
 
