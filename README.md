@@ -1,4 +1,7 @@
-# Show do Milhao - Genérico1 
+<h2 align="center">
+ Show do Milhao - Genérico
+</h2>
+<hr>
 
 <h1 align="center">
 Jogo Show do Milhão Genérico 
