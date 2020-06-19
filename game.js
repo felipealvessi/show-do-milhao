@@ -74,6 +74,10 @@ const textNodes = [
       {
         text: '26 LETRAS',
         nextText: 3
+      },
+      {
+        text: '19 LETRAS',
+        nextText: 4
       }
     ]
   },
@@ -87,11 +91,15 @@ const textNodes = [
       },
       {
         text: 'Imigrante',
-        nextText: 5
+        nextText: 4
       },
       {
         text: 'Brasileiro',
         nextText: 6
+      },
+      {
+        text: 'Carioca',
+        nextText: 4
       }
     ]
   },
@@ -130,13 +138,21 @@ const textNodes = [
     text: 'A cor Vermelha na lingua inglesa, se escreve de qual forma?',
     options: [
       {
-        text: 'READ',
+        text: 'Read',
         nextText: 8
       },
       {
-        text: 'RED',
-        // requiredState: (currentState) => currentState.blueGoo,
+        text: 'Red',
+
         nextText: 12
+      },
+      {
+        text: 'Yellow',
+        nextText: 8
+      },
+      {
+        text: 'Blue',
+        nextText: 8
       }
     ]
   },
@@ -214,7 +230,7 @@ const textNodes = [
       },
       {
         text: 'China',
-        nextText: 11
+        nextText: 15
       },
       {
         text: 'Europa',
@@ -232,7 +248,62 @@ const textNodes = [
     options: [
       {
         text: 'Continuar',
-        nextText: 13
+        nextText: 16
+      }
+    ]
+  },
+  {
+    id: 16,
+    text: 'vicent Van Gogh era um?',
+    options: [
+      {
+        text: 'Bispo',
+        nextText: 4
+      },
+      {
+        text: 'Escultor',
+        nextText: 4
+      },
+      {
+        text: 'Pintor',
+        nextText: 17
+      },
+      {
+        text: 'Aviador',
+        nextText: 4
+      },
+    ]
+  },
+  {
+    id: 17,
+    text: 'Em que código as pessoas cegas leem?',
+    options: [
+      {
+        text: 'Morse',
+        nextText: 4
+      },
+      {
+        text: 'Penal',
+        nextText: 4
+      },
+      {
+        text: 'De Ética',
+        nextText: 4
+      },
+      {
+        text: 'Braille',
+        nextText: 11
+      },
+    ]
+  }
+  ,
+  {
+    id: 18,
+    text: 'Parabéns você acertou!',
+    options: [
+      {
+        text: 'Continuar',
+        nextText: 17
       }
     ]
   }
