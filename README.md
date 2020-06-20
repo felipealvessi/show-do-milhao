@@ -7,6 +7,10 @@ Show do Milhão - Genérico
 <p align="center" target="_blank">Deployed <a href="https://showdomilhao.netlify.app//">here</a>.</p>
 
 
+
+![Alt Text](https://github.com/felipealvessi/show-do-milhao/blob/master/img/show-do-milhao.gif)
+
+
 <hr>
 
 - [x] HTML5
