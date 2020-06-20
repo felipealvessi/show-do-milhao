@@ -119,7 +119,7 @@ const textNodes = [
     options: [
       {
         text: 'Continuar',
-        nextText: -1
+        nextText: 3
       }
     ]
   },
